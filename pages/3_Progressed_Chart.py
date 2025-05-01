@@ -14,8 +14,6 @@ from services.geolocation import get_location_data
 from controller.time_utils import dt_to_jd, jd_to_dt, get_solar_year
 from config.init_session import init_session_state
 
-init_session_state()
-
 st.title("Progressed Chart")
 
 # User input for progressed date and time

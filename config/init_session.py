@@ -1,6 +1,6 @@
 import streamlit as st
 import datetime as dt
-from config.loaders import initiate_houses, initiate_signs, initiate_planets
+from config.loaders import initiate_houses, initiate_signs, initiate_planets, initiate_aspects
 
 def init_session_state():
     """
@@ -11,6 +11,7 @@ def init_session_state():
     initiate_houses()
     initiate_signs()
     initiate_planets()
+    initiate_aspects()
     
     # Initialize natal data
     if 'birth_date' not in st.session_state:
