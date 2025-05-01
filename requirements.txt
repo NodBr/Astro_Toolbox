@@ -1,0 +1,7 @@
+streamlit
+pandas
+swisseph
+pytz
+requests
+python-dateutil
+python-dotenv
