@@ -1,7 +1,6 @@
 streamlit
 pandas
-swisseph
+pyswisseph
 pytz
 requests
-python-dateutil
 python-dotenv
